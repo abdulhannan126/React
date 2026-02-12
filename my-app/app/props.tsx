@@ -10,3 +10,7 @@ export default function Clock({color, time}: ClockProps){
         </h1>
     )
 }
+export function Clocknow({time})
+const hours = time.h=getHours();
+
+
